@@ -1,0 +1,15 @@
+.navbar-main-container {
+    display: flex;
+    /* background: teal; */
+    width: 71rem;
+    justify-content: space-between;
+}
+.navbar-all-items {
+    font-size: 1.2rem;
+}
+.navbar-all-items {
+    font-size: 1.2rem;
+    /* background: yellowgreen; */
+    width: 33rem;
+    justify-content: space-around;
+}

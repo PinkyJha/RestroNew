@@ -1,0 +1,41 @@
+.cafe-navbar-container p{
+  width: 11vw;
+  text-align: center;
+}
+.navbar-wrapper{
+    display: flex;
+    width: 49vw;
+    overflow-x: scroll;
+}
+.navbar-wrapper::-webkit-scrollbar {
+    height: 5px;
+}
+  /* Track */
+.navbar-wrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+  /* Handle */
+.navbar-wrapper::-webkit-scrollbar-thumb {
+    background: #2697EC; 
+    border-radius: 10px;
+}
+  /* Handle on hover */
+.navbar-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #2697EC; 
+}
+
+@media only screen and (max-width:500px){
+  .navbar-wrapper{
+    width: 93vw;
+  }
+  .cafe-navbar-container p{
+    width: 35vw;
+  }
+
+}
+@media only screen and (max-width:400px){
+  .cafe-navbar-container p {
+    width: 46vw;
+}
+}

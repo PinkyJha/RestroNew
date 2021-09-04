@@ -1,0 +1,27 @@
+@media only screen and (max-width:500px){
+    .ButtonGroupcart{
+        width: 28vw !important;
+        height: 7vh !important;
+
+    }
+    .Count{
+        padding-top: 1.4vh!important;
+    }
+}
+@media only screen and (max-width: 400px){
+    .ButtonGroupcart {
+        width: 31vw !important;
+        height: 6vh !important;
+    }
+    .Count{
+        padding-top: 1.1vh!important;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    .ButtonGroupcart {
+        width: 36vw !important;
+        height: 6vh !important;
+    }
+
+}

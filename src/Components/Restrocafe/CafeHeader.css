@@ -1,0 +1,13 @@
+.header-container{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 3vh;
+}
+svg.MuiSvgIcon-root {
+    margin-left: 1vw;
+}
+@media only screen and (max-width:500px){
+    svg.MuiSvgIcon-root {
+        margin-left: 2vw;
+    }
+}

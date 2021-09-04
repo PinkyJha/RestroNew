@@ -1,0 +1,80 @@
+.catgories-subsection{
+    display: flex;
+    /* margin-left: 6vw; */
+    justify-content: space-between;
+    margin-right: 6vw;
+    margin-top: -2vh;
+}
+.catgories-subsection img{
+    width: 9vw;
+    height: 9vh;
+    margin-top: -2vh;
+}
+.dishname{
+    font-weight: bold;
+    /* margin-left: 2vw; */
+}
+.dishdescription{
+    width: 29vw;
+    margin-top: -3vh;
+    color: grey;
+}
+.dish_currency{
+    font-weight: bold;
+}
+.menu-category{
+    margin-left: 5vw;
+    margin-top: 1vh;
+}
+.counter-block{
+    display: flex;
+    background: green;
+    color: white;
+    width: 7vw;
+    justify-content: space-evenly;
+    /* margin-left: 5vw; */
+    border-radius: 50px;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-top: 1vh;
+}
+.Customize{
+    color: crimson;
+    margin-top: -3vh;
+}
+
+@media only screen and (max-width:500px){
+    .catgories-subsection img {
+        width: 24vw;
+        height: 14vh;
+        margin-top: 1vh;
+    }
+    .dishdescription {
+        width: 58vw;
+        margin-top: -10vh;
+    }
+    .dishname {
+        font-size: 1.2rem;
+        }
+    .counter-block {
+        width: 23vw;
+        padding-top: 0.5vh;
+        margin-bottom: 1vh;
+    }
+    .dish_currency {
+        font-weight: bold;
+        width: 23vw;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .dishdescription {
+        width: 58vw;
+        margin-top: -8vh;
+    }
+    .catgories-subsection img {
+        width: 24vw;
+        height: 14vh;
+        margin-top: -1vh;
+    }
+}
